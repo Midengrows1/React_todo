@@ -1,0 +1,19 @@
+.button {
+    padding: 0  0.5em;
+    border: 2px solid gray;
+    border-radius: 8px;
+    background-color: #fff;
+    transition: .3s all linear;
+    cursor: pointer;
+    font-weight: 700;
+}
+
+.button:active {
+    transition: .3s all linear;
+    transform: scale(.98);
+}
+.button:hover{
+    box-shadow: 0px 0px 6px blue;
+    color: blue;
+    border-color: blue;
+}

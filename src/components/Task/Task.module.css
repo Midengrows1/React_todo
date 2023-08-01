@@ -1,0 +1,46 @@
+.Task {
+    /* background-color: red; */
+    display: flex;
+    align-items: normal;
+    gap: 5px;
+    overflow: hidden;
+    padding: 10px;
+    border-bottom: 1px solid rgba(0, 0, 0, .2);
+    /* background-color: red; */
+    justify-content: space-between;
+}
+
+.task__title {
+    white-space: nowrap;
+    overflow: hidden;
+    text-overflow: ellipsis;
+}
+
+.task__btns {
+    display: flex;
+    gap: 15px;
+}
+
+.btn__trash {
+    display: inline-flex;
+    color: red;
+    padding: 5px;
+    border: 1px solid gray;
+    border-radius: 0px;
+    border: none;
+}
+
+.btn__trash::after{
+    content: '';
+    display: inline-flex;
+    width: 1px;
+    height: 100%;
+    margin-left: 1.2vw;
+    background-color: gray;
+    align-self:flex-end;
+}
+.btn__trash:hover {
+    color: red;
+    mix-blend-mode: screen;
+    box-shadow: 0 0 0;
+}
